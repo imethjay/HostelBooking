@@ -5,8 +5,7 @@ Welcome to the Hostel Property Rental Management System! This web application is
 <be>
 
 Features
-<ul>
-<li>For Landlords: <br>
+<ul><li>For Landlords: <br>
 •	Register Properties: Easily add new properties to the system with all necessary details.<br>
 •	Edit Property Details: Update property information as needed to ensure listings are accurate.<br>
 •	Delete Properties: Remove properties from the listing when they are no longer available.<br>
@@ -25,7 +24,17 @@ Features
 </li><br>
 </ul>
 
-Key Features<br>
+Technologies Used:
+
+•Frontend: HTML, CSS, JavaScript<br>
+•Backend: PHP <br>
+•API: Google Map API<br>
+•Development Tools: IntelliJ IDEA, Figma<br>
+
+<br>
+Key Features
+<br>
+<br>
 •	User Authentication: Secure login system ensuring data privacy for landlords, students, and wardens.<br>
 •	Property Management: Comprehensive tools for landlords to manage their property listings.<br>
 •	Rental Request System: A streamlined process for students to submit and landlords to manage rental requests.<br>
