@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+    font-family: 'Poppins';
+ }
+ 
+/*---------------------------------- Web Admin Dashboard & Sign Up----------------------------------*/
+
+ .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+ }
+
+ .heading{
+    display: flex;
+    justify-content: center !important;
+    padding: 50px 0px;
+    font-weight: 700;
+ }
+
+.dashboard{
+    background-color: #E5E8EB;
+    width: 60%;
+    border-radius: 30px;
+ }
+
+ .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.btn-1{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    width: 550px;
+    text-align: center;
+}
+
+.btn-1 h6 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.btn-1 i {
+    color: black;
+ }
+
+.btn-1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/*----------------------------------Sign Up Form--------------------------------*/
+
+
+
+
+.headline{
+    text-align: center;
+    margin: 60px;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 80px;
+}
+
+.input-area .inputs{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-style: none !important;
+    outline: none;
+}
+
+.log-in-area{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.log-in-area p{
+    margin-right:5px;
+}
+
+.log-in-area .log-in-btn{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #22252B;
+    color: #FFFFFF;
+    border-style: none !important;
+    outline: none;
+    margin-bottom: 60px;
+
+}
+

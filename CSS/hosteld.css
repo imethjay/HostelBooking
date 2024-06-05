@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans;
+}
+
+.container{
+    background-color:#E5E8EB;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+
+}
+.all-data{
+    margin: 10px 40px;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hostel-name p{
+    padding-left: 5px;
+}
+
+
+.heading .btn .req{
+    color: white;
+    background-color: #22252B;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.img-slider{
+    background-color: red;
+    height: 200px;
+    margin: 3% 30% ;
+    justify-content: center;
+    align-items: center;    
+}
+
+.about p{
+    background-color: #FEFEFE;
+    padding: 20px 30px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.prices ul{
+    background-color: #FEFEFE;
+    padding: 20px 30px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.facilities .fac-details {
+    background-color: #FEFEFE;
+    padding: 20px 30px;
+    text-align: justify;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
